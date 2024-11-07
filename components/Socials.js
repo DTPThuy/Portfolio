@@ -1,33 +1,30 @@
 import Link from "next/link";
 import {
-  RiYoutubeLine, 
-  RiInstagramLine, 
+  RiLinkedinBoxLine,
+  RiGithubLine, 
   RiFacebookLine,
-  RiDribbbleLine,
-  RiBehanceLine,
-  RiPinterestLine,
 } from 'react-icons/ri'
 
 const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-lg">
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiYoutubeLine />
+      <Link
+        href={"https://linkedin.com/in/thuydang01"}
+        className="hover:text-accent transition-all duration-300"
+      >
+        <RiLinkedinBoxLine />
       </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
+      <Link
+        href={"https://www.facebook.com/thuydangne"}
+        className="hover:text-accent transition-all duration-300"
+      >
         <RiFacebookLine />
       </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiInstagramLine />
-      </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiDribbbleLine />
-      </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiBehanceLine />
-      </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiPinterestLine />
+      <Link
+        href={"https://github.com/DTPThuy"}
+        className="hover:text-accent transition-all duration-300"
+      >
+        <RiGithubLine />
       </Link>
     </div>
   );
