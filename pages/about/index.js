@@ -7,23 +7,6 @@ import { fadeIn } from "../../variants";
 // Import aboutData from the new file
 import aboutData from "/dataset/about";
 
-// icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaWordpress,
-  FaFigma,
-} from "react-icons/fa";
-
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
-} from "react-icons/si";
-
 const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);

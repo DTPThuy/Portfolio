@@ -16,16 +16,23 @@
 
 import { 
     FaHtml5,
-  FaCss3,
-  FaJs,
-FaPython, FaJava, FaDatabase, FaTools } from "react-icons/fa";
+    FaCss3,
+    FaJs,
+    FaPython, FaJava, FaDatabase, FaTools, 
+    FaBrain, FaChartBar,
+  FaLanguage, FaGlobe } from "react-icons/fa";
 import {
   SiPostgresql,
   SiPandas,
+  SiNumpy,
+  SiMicrosoftoffice,
   SiTableau,
   SiPowerbi,
-  SiGitlab,
   SiGit,
+  SiVisualstudiocode,
+  SiGithub,
+  SiGitlab,
+  SiSourcetree,
 } from "react-icons/si";
 import { DiJupyter } from "react-icons/di";
 import { MdVisualization } from "react-icons/md";
@@ -35,7 +42,7 @@ const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Programming Languages",
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
@@ -47,7 +54,32 @@ const aboutData = [
       },
       {
         title: "Data Analysis & Visualization",
-        icons: [<SiPandas />, <SiPowerbi />, <SiTableau />, <SiPostgresql />],
+        icons: [
+          <SiPandas />,
+          <SiNumpy />,
+          <SiMicrosoftoffice />,
+          <SiPowerbi />,
+          <SiTableau />,
+          <SiPostgresql />,
+        ],
+      },
+      {
+        title: "Tools & Devops",
+        icons: [
+          <SiGit />,
+          <SiGithub />,
+          <SiGitlab />,
+          <SiSourcetree />,
+          <SiVisualstudiocode />,
+        ],
+      },
+      {
+        title: "Statistics & Machine Learning",
+        icons: [<FaBrain />, <FaChartBar />],
+      },
+      {
+        title: "Languages",
+        icons: [<FaGlobe />],
       },
     ],
   },
